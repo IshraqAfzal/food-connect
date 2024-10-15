@@ -1,4 +1,6 @@
+// import React from 'react'
 import './navbar.css'
+import { NavLink } from 'react-router-dom';
 
 function Navbar(){
     const handleHamburgerClick = () => {
@@ -24,10 +26,10 @@ function Navbar(){
             <nav>
                 <div className='Menu' style={{display:'none'}}>
                 <ul>
-                <li><a href="/Home">Home</a></li>
-                <li><a href="/Contact">Contact</a></li>
-                <li><a href="/Login">Login</a></li>
-                <li><a href="/Register">Register</a></li>
+                <li><NavLink to="/">Home</NavLink></li>
+                <li><NavLink to="/Contact">Contact</NavLink></li>
+                <li><NavLink to="/Register">Register</NavLink></li>
+                <li><NavLink to="/Login">Login</NavLink></li>
             </ul>
                 </div>
                 
