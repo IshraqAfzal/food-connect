@@ -4,6 +4,7 @@ import '../input.css'
 function Login() {
     return (
         <>
+        <div id="container">
         <form>
             <div id="form-heading">Log in to your account</div>
             <div id="line-1">New to FoodConnect? Sign up <span>here</span></div>
@@ -12,6 +13,7 @@ function Login() {
             <input type="password" placeholder="Enter your password" />
             <button id="button">Login</button>
         </form>
+        </div>
         </>
     );
 }

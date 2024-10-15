@@ -1,4 +1,5 @@
 import './navbar.css'
+
 function Navbar(){
     const handleHamburgerClick = () => {
         const menu = document.querySelector('.Menu');
@@ -14,11 +15,8 @@ function Navbar(){
     return (
         
             <div className="container">
-            
             <div className="Header">
-            <div className="Logo">
-                <h2>FoodConnect.</h2>
-            </div>
+            <div className="Logo">FoodConnect</div>
             <button className='Hamburger' onClick={handleHamburgerClick}> 
             </button>
             </div>
