@@ -1,7 +1,7 @@
 .Header{
     display: flex;
     justify-content: space-between;
-    background-color: teal;
+    background-color: linear-gradient(to right, #294936, #294936c1);;
 }
 
 .Menu{
@@ -33,6 +33,8 @@ li:hover {
 .Hamburger {
     padding-right: 15px;
     font-size: 30px;
+    background: inherit;
+    border: 0;
 }
 
 .Logo{

@@ -1,9 +1,12 @@
+import "../admin.css"
+
 function CreateEvent(){
 
     const userName = ""
 
     return (
-        <form>
+        <form id="admin-container">
+            <h4>Fill in the information below to create a new event or resource</h4>
             <input type="text" placeholder="name"/>
             <input type="text" placeholder="type"/>
             <input type="text" placeholder="date"/>
@@ -14,3 +17,5 @@ function CreateEvent(){
         </form>
     )
 }
+
+export default CreateEvent
