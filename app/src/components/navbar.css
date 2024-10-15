@@ -31,14 +31,13 @@ li:hover {
 }*/
 
 .Hamburger {
-    background-size: contain;
-    width: 50px;
-    height: 50px; 
+    padding-right: 15px;
+    font-size: 30px;
 }
 
 .Logo{
     padding: 4px;
-    padding-left: 10px;
+    padding-left: 15px;
     font-weight: bolder;
     font-size: 20px;
 }
