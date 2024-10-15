@@ -1,8 +1,7 @@
-import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import Header from './components/navbar.jsx'
-import './index.css'
+import HomeContainer from './components/home-container.jsx'
+import './input.css'
 
 createRoot(document.getElementById('root')).render(
-    <Header></Header>
+    <HomeContainer/>
 )
