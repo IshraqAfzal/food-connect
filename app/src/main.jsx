@@ -1,10 +1,10 @@
 import { createRoot } from 'react-dom/client'
-import Navbar from './components/navbar.jsx'
-import Login from './components/login.jsx'
+import AdminNavbar from './components/admin-navbar'
+import AdminDashboard from './components/admin-dashboard.jsx'
 
 createRoot(document.getElementById('root')).render(
     <>
-    <Navbar/>
-    <Login/>
+    <AdminNavbar></AdminNavbar>
+    <AdminDashboard/>
     </>
 )
