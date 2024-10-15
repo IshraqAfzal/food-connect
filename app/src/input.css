@@ -10,5 +10,56 @@
   padding: 0;
   margin: 0;
   font-family: "Poppins", sans-serif;
-  font: poppins;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: teal;
+}
+
+form {
+  padding: 5px;
+  border-radius: 30px;
+  height: 70vh;
+  width: 70vw;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+#form-heading{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 25px;
+  padding-bottom: 0px;
+}
+
+#line-1, #line-2 {
+  color: teal;
+  font-weight: bold;
+}
+
+#line-1 span, #line-2 span {
+  color: lightblue;
+  font-style: oblique;
+}
+
+input {
+  border: 2px solid;
+  padding: 2px;
+}
+
+#button {
+  background-color: rgba(128, 128, 128, 0.452);
+  color: rgb(150, 150, 150);
+}
+
+button:hover{
+  border-radius: 10px;
 }
